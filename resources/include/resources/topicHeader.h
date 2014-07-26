@@ -32,6 +32,7 @@ extern const char* CONTROL_MOVEALONG_SERV;
 extern const char* CONTROL_IP_ERROR;
 extern const char* CONTROL_SWITCH_CONTROL;
 
+
 extern const char* CONTROL_SEABOTIX;
 
 
@@ -47,7 +48,12 @@ extern const char* HARDWARE_BATTERY2;
 extern const char* HARDWARE_MISSION_SWITCH_SERV;
 extern const char* HARDWARE_KILL_SWITCH;
 
+// vision stack topics
 
+extern const char* CAMERA_BOTTOM_RAW_IMAGE;
+extern const char* CAMERA_CAM_SWITCH;
+
+extern const char* CAMERA_FRONT_RAW_IMAGE;
 
 //navigation
 
