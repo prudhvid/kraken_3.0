@@ -5,4 +5,21 @@ export ROS_WORKSPACE=$WS
 export ROS_PACKAGE_PATH=$ROS_WORKSPACE:$ROS_PACKAGE_PATH
 
 roscd kraken_visualization
+
+echo "
+
+Published Topics
+/kraken/depth 
+/kraken/dvl
+/kraken/bottom_camera/*
+/kraken/front_camera/*
+/kraken/imu_data
+
+All others are generally redundant
+
+
+"
+
+
+
 rosrun uwsim uwsim --configfile kraken/scenes/UWSim_scene.xml
